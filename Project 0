@@ -1,0 +1,56 @@
+لدينا أربعة متغيرات هنا، هل يمكننا برمجيًا معرفة نوع هذه المتغيرات؟
+x = 7
+y = x/3
+z = x == 7
+s = "Hello python programmer!"
+<CODE HERE>
+
+نرغب بطباعة الجملة التالية:
+"I want to pay 10.5 riyals for 2 pieces of this item."
+لكننا سنقوم باستخدام المتغيرات المعرفة لدينا (متغير السعر ومتغير الكمية) بدلا من إعادة كتابة الأرقام، هل يمكنك فعلها؟
+quantity = 2
+price = 10.5
+text = <I want to pay>
+print(text)
+
+قم بكتابة دالة تقوم بمقارنة الرقم المدخل (مثل ١٩) بالرقم ١٠ و تخبرك ما إذا كان أكبر من الرقم ١٠ أم لا
+def bigger_than_10(x):
+    <CODE HERE>
+bigger_than_10(19)
+
+لدينا قائمة من الفواكه، كيف يمكننا برمجيا الحصول على آخر فاكهتين في القائمة؟
+fruites = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+<CODE HERE>
+هل يمكننا طباعة كل عنصر من القائمة السابقة في سطر مستقل؟
+<CODE HERE>
+
+لنفترض أن لدينا المعجم التالي، نريد إضافة المفتاح
+black
+بالقيمة
+000000
+
+colors = {
+  "blue": "0000FF",
+  "green": "00FF00",
+  "yellow": "FFFF00",
+  "red": "FF0000",
+  "white": "unknown"
+}
+<CODE HERE>
+
+هل يمكننا تغيير قيمة المفتاح
+white
+بالقيمة
+FFFFFF ?
+
+<CODE HERE>
+نريد إنشاء دالة تقوم بأخذ قائمة و استبدال عناصرها بالقيم من المعجم بالاستعانة بالمفاتيح مثال: نستبدل
+blue
+بالقيمة
+0000FF
+
+def exchange_values(lista):
+    
+    
+lista = ['blue', 'white', 'black', 'yellow', 'green', 'red']
+exchange_values(lista)
